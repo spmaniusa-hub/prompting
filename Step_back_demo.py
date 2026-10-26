@@ -1,6 +1,8 @@
-tasks = [    
-    {"id": 1, "title": "Learn Python", "completed": False}, 
-    {"id": 2, "title": "Practice prompting", "completed": True}]
+tasks = [
+    {"id": 1, "title": "Learn Python", "completed": False},
+    {"id": 2, "title": "Practice prompting", "completed": True},
+]
+
 
 def find_task(task_id):
     for task in tasks:
@@ -22,4 +24,3 @@ def complete_task(task_id):
 
 
 complete_task(99)
-
